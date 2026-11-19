@@ -1,0 +1,10 @@
+# Focus & Flow API — runtime
+fastapi==0.165.0
+uvicorn==0.54.0
+SQLAlchemy==2.1.9
+pydantic==2.14.4
+pydantic-settings==2.16.3
+email-validator==2.4.0
+pwdlib[argon2]==0.4.2
+PyJWT==2.15.1
+python-multipart>=0.0.20   # form login used by the "Authorize" button in /docs

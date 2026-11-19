@@ -1,0 +1,24 @@
+# Secrets: never commit
+.env
+.env.*
+!.env.example
+secret.key
+*.key
+
+# Virtual environment
+.venv/
+venv/
+
+# Database + generated signing key
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# Python caches / test output
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/

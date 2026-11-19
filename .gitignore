@@ -1,0 +1,36 @@
+# ---- Secrets: never commit ----
+.env
+.env.*
+!.env.example
+secret.key
+*.key
+*.pem
+
+# ---- Python (backend) ----
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---- Databases (contain users' data) ----
+backend/data/
+*.db
+*.db-wal
+*.db-shm
+
+# ---- Node / Expo (frontend) ----
+node_modules/
+.expo/
+dist/
+web-build/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+
+# ---- Leftovers ----
+_to_delete/
